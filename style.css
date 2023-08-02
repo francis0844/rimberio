@@ -1,0 +1,72 @@
+.brand-logo{
+    width: 30%;
+}
+.main-listing img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.rating-color{
+    color:#fbc634;
+}
+.sale-banner{
+    background-image: url(img/1.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+.card-img button{
+    width: 100%;
+}
+.modal-content .card-img img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.sizes{
+    font-size: 12px;
+}
+.newsletter-container{
+    background-image: url(img/2.png);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+.newsletter-content {
+    max-width: 700px;
+}
+.newsletter-container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.sbmt {
+    margin-top: 7px !important;
+}
+.sbmt button{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.emailfrm input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.footer-logo{
+    width: 40%;
+}
+.menu-content {
+    display: grid;
+    justify-content: end;
+}
+.menu-content h4{
+    margin-bottom: 30px;
+}
+.menu-content .nav-link{
+    margin-bottom: 20px;
+}
+@media (max-width: 992px) {
+    .menu-content {
+        justify-content: start;
+        margin-top: 30px;
+    }
+}
