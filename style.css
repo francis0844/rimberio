@@ -64,6 +64,11 @@
 .menu-content .nav-link{
     margin-bottom: 20px;
 }
+#footer .nav-link {
+    padding: 0px;
+    color: white;
+}
+
 @media (max-width: 992px) {
     .menu-content {
         justify-content: start;
